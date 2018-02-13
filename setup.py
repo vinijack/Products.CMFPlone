@@ -96,7 +96,6 @@ setup(
         'Products.CMFDynamicViewFTI',
         'Products.CMFEditions',
         'Products.CMFFormController',
-        'Products.CMFQuickInstallerTool',
         'Products.CMFUid',
         'Products.DCWorkflow',
         'Products.ExtendedPathIndex',

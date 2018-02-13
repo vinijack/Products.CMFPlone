@@ -82,7 +82,6 @@ class NonInstallable(object):
                 u'Products.CMFFormController:CMFFormController',
                 u'Products.CMFPlone:dependencies',
                 u'Products.CMFPlone:testfixture',
-                u'Products.CMFQuickInstallerTool:CMFQuickInstallerTool',
                 u'Products.NuPlone:uninstall',
                 u'Products.MimetypesRegistry:MimetypesRegistry',
                 u'Products.PasswordResetTool:PasswordResetTool',
