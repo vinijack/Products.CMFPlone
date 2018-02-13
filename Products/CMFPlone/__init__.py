@@ -145,7 +145,6 @@ def initialize(context):
     from Products.CMFPlone import TypesTool
     from Products.CMFPlone import CatalogTool
     from Products.CMFPlone import SkinsTool
-    from Products.CMFPlone import QuickInstallerTool
     from Products.CMFPlone import TranslationServiceTool
 
     tools = (
@@ -161,7 +160,6 @@ def initialize(context):
         TypesTool.TypesTool,
         CatalogTool.CatalogTool,
         SkinsTool.SkinsTool,
-        QuickInstallerTool.QuickInstallerTool,
         TranslationServiceTool.TranslationServiceTool,
     )
 

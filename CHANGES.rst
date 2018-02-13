@@ -10,6 +10,8 @@ Changelog
 
 Breaking changes:
 
+- Removed our CMFQuickInstallerTool code completely.  [maurits]
+
 - Some tools from CMFCore are now utilities
   [pbauer]
 
