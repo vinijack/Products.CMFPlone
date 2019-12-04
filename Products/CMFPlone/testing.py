@@ -32,6 +32,14 @@ class ProductsCMFPloneLayer(PloneSandboxLayer):
             Products.CMFPlone,
             context=configurationContext
         )
+        # Enable virtual hosting.  Taken over from plone.subrequest.
+        z2.installProduct(app, 'Products.SiteAccess')
+        from Products.SiteAccess.VirtualHostMonster import \
+            VirtualHostMonster
+        vhm = VirtualHostMonster()
+        app._setObject(vhm.getId(), vhm, suppress_events=True)
+        # With suppress_events=False, this is called twice...
+        vhm.manage_afterAdd(vhm, app)
 
     def setUpPloneSite(self, portal):
         portal.acl_users.userFolderAddUser(
