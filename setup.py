@@ -87,7 +87,6 @@ setup(
         'plone.session',
         'plone.staticresources',
         'plone.subrequest',
-        'plone.theme',
         'plonetheme.barceloneta',
         'Products.CMFCore',
         'Products.CMFDiffTool',
